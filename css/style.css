@@ -1,0 +1,71 @@
+html,
+body {
+    margin: 0; 
+}
+
+body {
+    background-color:#000;
+    font-family: 'Eczar', serif;
+    -webkit-font-smoothing: antialiased;
+    color: whitesmoke;
+    overflow: hidden; 
+}
+
+h1,
+.links,
+h4 {
+    position: fixed;
+    mix-blend-mode: difference;
+    text-transform: uppercase;
+}
+
+h1 {
+    left: 23px;
+    color: transparent;
+    -webkit-text-stroke: 2px whitesmoke;
+    font-size: 54px;
+    line-height: 27px;  
+}
+
+h4 {
+    bottom: 30px;
+    right: 20px;
+}
+
+.links {
+    right: 20px;
+    top: 30px; 
+}
+
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 3rem;
+    transition: all 0.5s ease-in-out;
+    margin-right: 15px;
+}
+
+a:hover {
+    text-decoration: underline wavy whitesmoke;
+}
+
+p {
+    position: absolute;
+    left: 50%;
+    top: 50%; 
+    transform: translate(-50%, -25%);
+    mix-blend-mode: multiply;
+    font-weight: 600;
+    color: maroon;
+    width: 600px;
+    text-align: center; 
+}
+
+canvas {
+    vertical-align: bottom; 
+    width: 100vw;
+    height: 100vh;
+}
